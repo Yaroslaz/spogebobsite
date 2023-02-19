@@ -1,0 +1,321 @@
+#header2{
+    position:absolute;
+    top: 200px;
+    left: 55px;
+    font-family: 'spongeboy';
+    color: aliceblue;
+    text-shadow: rgba(0, 0, 0, 0.521) 6px 7px 10px;
+    font-size: 40px;
+    clear: none;
+}
+
+/* ------------------------------------------ */
+#navback {
+    Letter-spacing: 2px;
+    padding: 0.6em 1em;
+    border: 4px solid #070707;
+    box-shadow: 5px 5px 20px 0px;
+    transition: ease-in-out 0.3s;
+    background-color: transparent;
+    color: #070707;
+    font-weight: bolder;
+    font-size: 25px;
+    position: absolute;
+    top: 115px;
+    right: 80px;
+}
+
+#navback:hover {
+    transform: scale(1.2) rotate(-10deg);
+    background-color: #faba5a;
+    border: 4px solid white;
+    color: white;
+}
+/* ------------------------------------------ */
+
+
+.firstarticle{
+    clear: left;
+    position:absolute;
+    top: 380px;
+    left: 55px;
+    font-family: 'spongeboy';
+    color: aliceblue;
+    text-shadow: rgba(0, 0, 0, 0.521) 5px 5px 5px;
+    width: 800px;
+}
+
+#description{
+    top: -85px;
+    left: 100px;
+    position:absolute;
+    font-size: 30px;
+    border-bottom: 4px solid #ffffff88;
+
+}
+#descriptionf{
+    font-size: 25px;
+    outline: 10px dotted #ffffff88;
+}
+
+#arrow{
+    rotate: 10deg ;
+    position: absolute;
+    left: 660px;
+    top:180px;
+}
+
+#gifsponge{
+    position: absolute;
+    left: 850px;
+    top: 150px;
+}
+
+.aside{
+    font-family: 'spongeboy';
+    color: aliceblue;
+    text-shadow: rgba(0, 0, 0, 0.521) 6px 7px 10px; 
+}
+
+/* ------------------------------------------ */
+#body{
+    position: absolute;
+    right: 270px;
+    top:300px ;
+}
+
+#bodyarrow{
+    position: absolute;
+    right: 270px;
+    top:370px ;
+    rotate: 160deg;
+}
+/* ------------------------------------------ */
+
+
+#pants{
+    position: absolute;
+    right: 800px;
+    top:600px;
+}
+
+#pantsarrow{
+    position: absolute;
+    right: 640px;
+    top:595px;
+    rotate: 160deg;
+    transform: scale(-1, 1)
+}
+
+/* ------------------------------------------ */
+#works{
+    position: absolute;
+    right: 120px;
+    top:670px ;
+}
+
+#worksarrow{
+    position: absolute;
+    right: 250px;
+    top:600px ;
+    rotate: 200deg;
+    transform: scale(1, -1) 
+}
+/* ------------------------------------------ */
+
+.secondaside{
+    font-family: 'spongeboy';
+    color: aliceblue;
+    text-shadow: rgba(0, 0, 0, 0.521) 5px 5px 5px;
+    width: 800px;
+    position:absolute;
+    left:55px;
+    top:850px;
+    font-size: 25px;
+    outline: 10px dotted #ffffff88;
+}
+
+#morefacts{
+    position: absolute;
+    left: 100px;
+    top: -130px;
+    border-bottom: 4px solid #ffffff88;
+}
+
+/* ------------------------------------------ */
+#thirdaside{
+    font-family: 'spongeboy';
+    color: aliceblue;
+    text-shadow: rgba(0, 0, 0, 0.521) 5px 5px 5px;
+    position:absolute;
+    left: 900px;
+    top: 700px;
+    font-size: 25px;
+
+}
+
+#arrow3{
+    position:absolute;
+    left: 90px;
+    top: 0px;
+    rotate: 5deg;
+}
+
+#arrow4{
+    position:absolute;
+    left: -30px;
+    top: 130px;
+    rotate: 35deg;
+}
+
+#petgarry{
+    position:absolute;
+    top: 60px;
+}
+
+/* ------------------------------------------ */
+
+.footer {
+    top: 1250px;
+    position: relative;
+    text-shadow: rgba(0, 0, 0, 0.87) 3px 3px 5px;
+    border-top: 10px solid #ffffff88;
+    border-bottom: 10px solid #ffffff88;
+    font-size: 10px;
+}
+/* ------------------------------------------ */
+
+.bubble1 {
+    animation-name: bubble-gone;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    left: 0;
+    position: absolute;
+}
+
+.bubble2 {
+    animation-name: bubble-gone2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    position: absolute;
+}
+
+.bubble3 {
+    animation-name: bubble-gone3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    left: 0;
+    position: absolute;
+}
+
+.bubble4 {
+    animation-name: bubble-gone4;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    left: 0;
+    position: absolute;
+}
+
+.bubble1:hover {
+    animation-play-state: paused;
+}
+
+.bubble2:hover {
+    animation-play-state: paused;
+}
+
+.bubble3:hover {
+    animation-play-state: paused;
+}
+
+.bubble4:hover {
+    animation-play-state: paused;
+}
+
+/* ----------------------------------------------- */
+@keyframes bubble-gone {
+    0% {
+        left: 1690px;
+        top: 0px;
+
+    }
+
+    50% {
+        left: 900px;
+        top: 800px;
+
+    }
+    80%{
+        left: 100px;
+        top: 400px;
+    }
+    100%{
+        left: 800px;
+        top: 200px; 
+    }
+}
+
+/* ----------------------------------------------- */
+@keyframes bubble-gone2 {
+    0% {
+        left: 1500px;
+        top: 1000px;
+    }
+
+    100% {
+        left: 100px;
+        top: 1200px;
+    }
+}
+
+/* ----------------------------------------------- */
+@keyframes bubble-gone3 {
+    0% {
+        left: 10px;
+        top: 60px;
+    }
+
+    30% {
+        top: 300px;
+    }
+
+    100% {
+        left: 1800px;
+        top: 10px;
+    }
+}
+
+/* ----------------------------------------------- */
+@keyframes bubble-gone4 {
+    0% {
+        left: 1750px;
+        top: 900px;
+
+    }
+
+    50% {
+        top: 600px;
+
+    }
+
+    80% {
+        top: 100px;
+
+    }
+
+    100% {
+        left: 600px;
+        top: 400px;
+
+    }
+}
+
+/* ----------------------------------------------- */

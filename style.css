@@ -1,0 +1,320 @@
+
+#sponge {
+    /* position:absolute ; */
+    font-size: 80px;
+    line-height: 10px;
+    margin: 80px 0px 80px 50px;
+    color: aliceblue;
+    text-shadow: rgba(0, 0, 0, 0.521) 10px 10px 10px;
+    font-family: 'spongeboy';
+}
+
+#square {
+    /* position: absolute; */
+    font-size: 70px;
+    line-height: 10px;
+    margin: 170px 0px 100px 650px;
+    color: aliceblue;
+    text-shadow: rgba(0, 0, 0, 0.521) 10px 10px 10px;
+    font-family: 'spongeboy';
+}
+
+#nickelodeon {
+    position: absolute;
+    left: 1720px;
+    top: 0px;
+}
+
+#dvaxdva {
+    position: absolute;
+    left: 1580px;
+    top: 20px;
+}
+
+.article {
+    font-size: 20px;
+    line-height: 55px;
+    Letter-spacing: 1px;
+    margin: 0px 0px 0px 50px;
+    color: rgb(245, 245, 245);
+    text-shadow: rgba(0, 0, 0, 0.623) 6px 5px 7px;
+    font-family: 'spongeboy';
+    width: 1200px;
+}
+
+#img1 {
+    margin: -400px 0px 0px 1280px;
+    border-radius: 5px;
+    width: 550px;
+    ;
+    height: 350px;
+    border: 10px solid aliceblue;
+    box-shadow: 5px 5px 20px 0px;
+}
+
+#img2 {
+    margin: 50px 0px 0px 665px;
+    border-radius: 5px;
+    width: 550px;
+    ;
+    height: 350px;
+    border: 10px solid aliceblue;
+    box-shadow: 5px 5px 20px 0px;
+}
+
+#img3 {
+    margin: -350px 0px 0px 50px;
+    border-radius: 5px;
+    width: 550px;
+    ;
+    height: 350px;
+    border: 10px solid aliceblue;
+    box-shadow: 5px 5px 20px 0px;
+}
+
+#img4 {
+    margin: 50px 0px 0px 400px;
+    border-radius: 5px;
+    width: 550px;
+    height: 350px;
+    border: 10px solid aliceblue;
+    box-shadow: 5px 5px 20px 0px;
+}
+
+.aside {
+    font-size: 30px;
+    margin: -820px 0px 0px 1275px;
+    color: aliceblue;
+    text-shadow: rgba(0, 0, 0, 0.87) 5px 5px 10px;
+    font-family: 'spongeboy';
+}
+
+#facts {
+    margin: 0px 0px 0px 200px;
+}
+
+#ol {
+    clear: both;
+    /* position: absolute; */
+    Letter-spacing: 1px;
+    width: 550px;
+}
+
+#next {
+    float: right;
+    /* position: absolute; */
+    font-size: 20px;
+    margin-top: -5px;
+    margin-right: 80px;
+    Letter-spacing: 1px;
+    width: 750px;
+}
+
+
+.bubble1 {
+    animation-name: bubble-gone;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    left: 0;
+    position: absolute;
+}
+
+.bubble2 {
+    animation-name: bubble-gone2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    position: absolute;
+}
+
+.bubble3 {
+    animation-name: bubble-gone3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    left: 0;
+    position: absolute;
+}
+
+.bubble4 {
+    animation-name: bubble-gone4;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    left: 0;
+    position: absolute;
+}
+
+.bubble1:hover {
+    animation-play-state: paused;
+}
+
+.bubble2:hover {
+    animation-play-state: paused;
+}
+
+.bubble3:hover {
+    animation-play-state: paused;
+}
+
+.bubble4:hover {
+    animation-play-state: paused;
+}
+
+/* ----------------------------------------------- */
+@keyframes bubble-gone {
+    0% {
+        left: 0;
+        top: 1200px;
+
+    }
+
+    100% {
+        left: 500px;
+        top: 1300px;
+
+    }
+}
+
+/* ----------------------------------------------- */
+@keyframes bubble-gone2 {
+    0% {
+        left: 0px;
+        top: 1500px;
+    }
+
+    100% {
+        left: 800px;
+        top: 1400px;
+    }
+}
+
+/* ----------------------------------------------- */
+@keyframes bubble-gone3 {
+    0% {
+        left: 10px;
+        top: 60px;
+    }
+
+    30% {
+        top: 300px;
+    }
+
+    100% {
+        left: 1800px;
+        top: 10px;
+    }
+}
+
+/* ----------------------------------------------- */
+@keyframes bubble-gone4 {
+    0% {
+        left: 1800px;
+        top: 30px;
+
+    }
+
+    50% {
+        top: 600px;
+
+    }
+
+    80% {
+        top: 100px;
+
+    }
+
+    100% {
+        left: 50px;
+        top: 400px;
+
+    }
+}
+
+/* ----------------------------------------------- */
+
+
+/* ----------------------------------------------- */
+#characters {
+    Letter-spacing: 2px;
+    padding: 0.6em 1em;
+    border: 4px solid #070707;
+    box-shadow: 5px 5px 20px 0px;
+    transition: ease-in-out 0.3s;
+    background-color: transparent;
+    color: #070707;
+    font-weight: bolder;
+    font-size: 16px;
+    position: relative;
+    left: 100px;
+}
+
+#characters:hover {
+    transform: scale(1.2) rotate(-10deg);
+    background-color: #faba5a;
+    border: 4px solid white;
+    color: white;
+}
+
+/* ----------------------------------------------- */
+
+#watchnow {
+    Letter-spacing: 2px;
+    padding: 0.6em 1em;
+    border: 4px solid #070707;
+    box-shadow: 5px 5px 20px 0px;
+    transition: ease-in-out 0.3s;
+    background-color: transparent;
+    color: #070707;
+    font-weight: bolder;
+    font-size: 16px;
+    position: relative;
+    top: 50px;
+    left: 103px;
+}
+
+#watchnow:hover {
+    transform: scale(1.2) rotate(10deg);
+    background-color: #faba5a;
+    border: 4px solid white;
+    color: white;
+}
+
+/* ----------------------------------------------- */
+
+#othercartoons {
+    Letter-spacing: 2px;
+    padding: 0.6em 1em;
+    border: 4px solid #070707;
+    box-shadow: 5px 5px 20px 0px;
+    transition: ease-in-out 0.3s;
+    background-color: transparent;
+    color: #070707;
+    font-weight: bolder;
+    font-size: 16px;
+    position: relative;
+    top: 100px;
+    left: 74px;
+}
+
+#othercartoons:hover {
+    transform: scale(1.2) rotate(-10deg);
+    background-color: #faba5a;
+    border: 4px solid white;
+    color: white;
+}
+
+/* ----------------------------------------------- */
+
+.footer {
+    top: 200px;
+    position: relative;
+    text-shadow: rgba(0, 0, 0, 0.87) 3px 3px 5px;
+    border-top: 10px solid #ffffff88;
+    border-bottom: 10px solid #ffffff88;
+}
